@@ -14,4 +14,5 @@ data Contract = Zero Contract
   | Scale Obs Contract
   | Get Contract
   | Anytime Contract
-  
+
+eval :: Model -> Currency -> Contract -> ValProc
